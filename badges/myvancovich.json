@@ -56,6 +56,34 @@
       "superbadge": false,
       "checksPassed": 14,
       "checksTotal": 14
+    },
+    {
+      "type": "Achievement",
+      "level": 3,
+      "name": "sfdx-hardis Release Manager",
+      "description": "Owns the pipeline, the releases, the hotfixes and the monitoring.",
+      "issuer": {
+        "name": "Cloudity",
+        "url": "https://cloudity.com",
+        "course": "https://sfdx-hardis-training.cloudity.com"
+      },
+      "issuedOn": "2026-11-26",
+      "issuedAt": "2026-11-26T03:08:42Z",
+      "evidence": [
+        {
+          "type": "Repository",
+          "url": "https://github.com/mkyv/sfdx-hardis-training.git"
+        },
+        {
+          "type": "ClaimIssue",
+          "url": "https://github.com/hardisgroupcom/sfdx-hardis-training/issues/443"
+        }
+      ],
+      "image": "https://sfdx-hardis-training.cloudity.com/badges/img/myvancovich-level-3.svg",
+      "bannerImage": "https://sfdx-hardis-training.cloudity.com/badges/img/banner-level-3.svg",
+      "superbadge": true,
+      "checksPassed": 46,
+      "checksTotal": 46
     }
   ],
   "trailblazer": "myvancovich",
