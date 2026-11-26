@@ -68,7 +68,7 @@
         "course": "https://sfdx-hardis-training.cloudity.com"
       },
       "issuedOn": "2026-11-26",
-      "issuedAt": "2026-11-26T03:08:42Z",
+      "issuedAt": "2026-11-26T03:12:03Z",
       "evidence": [
         {
           "type": "Repository",
@@ -76,7 +76,7 @@
         },
         {
           "type": "ClaimIssue",
-          "url": "https://github.com/hardisgroupcom/sfdx-hardis-training/issues/443"
+          "url": "https://github.com/hardisgroupcom/sfdx-hardis-training/issues/444"
         }
       ],
       "image": "https://sfdx-hardis-training.cloudity.com/badges/img/myvancovich-level-3.svg",
