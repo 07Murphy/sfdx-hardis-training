@@ -3,6 +3,10 @@
 What changed in the course, for learners and trainers. The course has no versions: each section is
 a day, newest first, and a change goes under the date of the day it is made.
 
+## 2026-11-28
+
+- Lab 2.6: step 1 says what to do when the check goes red on `no Layout named FlowRecord-Flow Layout`, a layout `helios-dev` can have when `helios-integration` does not.
+
 ## 2026-11-24
 
 - Lab 2.1: step 3 says the **WHERE** block reads 0 Pull Requests on a first backpromote, and turns to 1 once Romain's story is picked in step 4.

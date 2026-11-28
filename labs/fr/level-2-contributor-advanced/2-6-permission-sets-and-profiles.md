@@ -5,7 +5,7 @@ description: "Une permission accordée sur un profil s'évapore après un déplo
 level: 2
 lab: 6
 lang: fr
-source_rev: "545896d1dc48930966e574f841b2b8addeeee4aa"
+source_rev: "78a672d6235d26d28cc7ac5abae5573419600601"
 screenshots:
   - annotated/vscode/pipeline-cards--new-user-story
   - annotated/vscode/pipeline-packages-menu--package-xml
@@ -71,7 +71,11 @@ Rappel : [Lab 1.5](../level-1-contributor-basics/1-5-retrieve-commit-and-publish
    Cost > Set Field-Level Security**, cochez **Visible** pour le profil **Helios Crew**, **Save**
 4. Faites-en un retrieve comme d'habitude : **Commit changes**, **Recent Changes**, **Search Metadata**,
    cochez le profil `Helios Crew`, récupérez, et commitez-le depuis **Source Control**
-5. Puis **Save / Publish**, poussez, Pull Request, vert, merge
+5. Puis **Save / Publish**, poussez, Pull Request, vert, merge. Si le check passe au rouge sur
+   `no Layout named FlowRecord-Flow Layout found`, ouvrez le fichier du profil, supprimez le bloc
+   `<layoutAssignments>` qui nomme cette présentation, commitez, et refaites **Save / Publish** :
+   `helios-dev` peut avoir cette présentation alors que `helios-integration` ne l'a pas. Tout autre
+   `no Layout named` est traité dans En cas de problème
 
 #### Pourquoi
 

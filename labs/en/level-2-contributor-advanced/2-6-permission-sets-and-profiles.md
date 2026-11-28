@@ -70,7 +70,11 @@ Refresher: [Lab 1.5](../level-1-contributor-basics/1-5-retrieve-commit-and-publi
    Cost > Set Field-Level Security**, tick **Visible** for the **Helios Crew** profile, **Save**
 4. Retrieve it the usual way: **Commit changes**, **Recent Changes**, **Search Metadata**, tick the
    `Helios Crew` Profile, retrieve, and commit it from **Source Control**
-5. Then **Save / Publish**, push, Pull Request, green, merge
+5. Then **Save / Publish**, push, Pull Request, green, merge. If the check goes red on
+   `no Layout named FlowRecord-Flow Layout found`, open the Profile file, delete the
+   `<layoutAssignments>` block that names that layout, commit, and **Save / Publish** again:
+   `helios-dev` can have that layout when `helios-integration` does not. Any other `no Layout named`
+   is under If it goes wrong
 
 #### Why
 
